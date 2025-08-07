@@ -39,6 +39,9 @@ public class Main {
         int indexZ = sentence.indexOf("z");
         int indexCat = sentence.indexOf("cat");
         System.out.println("Index of 'fox': "+indexFox);
+        // Ex: getting the fox string given the index
+//        System.out.println((sentence.substring(indexFox,indexFox+(new String("fox").length()))));
+        // This is why it's right endpoint exclusive, so we can easily use the string length + index as the end to fully retrieve the substring
         System.out.println("Index of 'z': "+indexZ);
         System.out.println("Index of 'cat':"+indexCat);
 
